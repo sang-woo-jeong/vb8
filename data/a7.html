@@ -1,0 +1,13 @@
+<script type="text/javascript">
+  $(".ghost2").on("click",function(){
+    $(".a2").css({"opacity":0,"margin-left":"-50px"}).load("./data/a8.html").stop().animate({"opacity":1,"margin-left":0},1000);
+    $(".f2 img").css({"opacity":0,"margin-left":"-50px"}).attr("src","./img/p6.png").delay(500).stop().animate({"opacity":1,"margin-left":0},1000);
+  })
+</script>
+<h2>f02.3 - Checking Delivery/Car</h2>
+<h3>택배/주차 확인</h3>
+<p>
+  사용자의 택배가 보관함에 잘 보관되어 있는지 확인할 수
+  있으며, 주차장을 확인하여 자신의 차량위치를 파악할 수 있습니다.
+</p>
+<div class="ghost ghost2">More Information</div>

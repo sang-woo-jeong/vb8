@@ -1,0 +1,26 @@
+#function2 {margin: 100px auto 0 auto; max-width: 1920px;}
+#function2 .d1 {position: absolute; left:20%; top:-100px; width:200px; transform: rotateZ(180deg);}
+#function2 .functionWrap {width:70%; margin: 0 auto; height: 600px; margin-top: 100px;}
+#function2 .functionWrap article {width:38%; float: left; margin-top: 150px;}
+#function2 .functionWrap article h2 {font-weight: 400; font-size: 1.1em;}
+#function2 .functionWrap article h3 {font-size: 2.5em; font-weight: 300; margin:20px 0;}
+#function2 .functionWrap article p {font-size: 1.1em;
+                                   font-weight: 100;
+                                   line-height: 180%;}
+
+#function2 .functionWrap figure {width:400px; height:600px;
+                                background: #f2f2f2; float: right;
+                                position: relative;}
+#function2 .functionWrap figure img {width:inherit;}
+
+@media(max-width:512px){
+  .ghost {position: absolute; top:360px; left:50%;
+          transform: translateX(-50%);
+          width:200px; text-align: center;}
+  #function2 {width:100%; margin: 0px auto 0 auto;}
+  #function2 .d1 {display: none;}
+  #function2 .functionWrap {width:85%; height:750px;}
+  #function2 .functionWrap article {width:100%; float: none; margin-top: 50px;}
+  #function2 .functionWrap article h3 {font-size: 1.8em;}
+  #function2 .functionWrap figure {width:300px; height:450px; margin: 0 auto; text-align: center; float: none;}
+}

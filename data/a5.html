@@ -1,0 +1,13 @@
+<script type="text/javascript">
+  $(".ghost2").on("click",function(){
+    $(".a2").css({"opacity":0,"margin-left":"-50px"}).load("./data/a6.html").stop().animate({"opacity":1,"margin-left":0},1000);
+    $(".f2 img").css({"opacity":0,"margin-left":"-50px"}).attr("src","./img/p6.png").delay(500).stop().animate({"opacity":1,"margin-left":0},1000);
+  })
+</script>
+<h2>f02.1 - Shared Zone</h2>
+<h3>공용 시설 확인</h3>
+<p>
+  여러분의 이웃들이 어느 시설, 어느 장소에 모여 있는지 혼잡도를
+  표시하여 확인 할 수 있습니다.
+</p>
+<div class="ghost ghost2">More Information</div>

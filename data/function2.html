@@ -1,0 +1,21 @@
+<script type="text/javascript">
+  $(".ghost2").on("click",function(){
+    $("#function2 .a2").css({"opacity":0,"margin-left":"-50px"}).load("/data/a5.html").stop().animate({"opacity":1,"margin-left":0},1000);
+    $("#function2 .f2 img").css({"opacity":0,"margin-left":"-50px"}).attr("src","/img/p6.png").delay(500).stop().animate({"opacity":1,"margin-left":0},1000);
+  })
+</script>
+<img class="d1" src="./img/d1.png"/>
+<div class="functionWrap">
+  <figure class="f2">
+    <img src="./img/p6.png"/>
+  </figure>
+  <article class="a2">
+    <h2>f02 - Utility</h2>
+    <h3>“이웃기웃”의 부가 기능</h3>
+    <p>
+      소통을 위한 기능 외에도 이를 보조하는 기능과, 사용자의
+      편의성을 위한 여러 기능이 존재합니다.
+    </p>
+    <div class="ghost ghost2">More Information</div>
+  </article>
+</div>
